@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-color: #AAAAAA; 
+  overflow-x: hidden;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    width: 100%  ;
+  
+}
+
+.logo div {
+    border-radius: 50px ;
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    color: #FFF8F1;
+    font-size: 18px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    position: relative;
+    
+}
+.logo h1 {
+    color: #Ffffff;
+  }
+  .logo a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 300px;
+    
+   
+}
+.nav li {
+    padding-right: 20px;
+    list-style: none;
+    color: white;  
+}
+.nav a {
+    text-decoration: none;
+}
+
+.login {
+    display: flex;
+    margin-left: 210px;
+}
+.login li {
+    padding-right: 20px;
+    list-style: none;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.login a {
+    text-decoration: none;
+}
+.login  ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;    
+}
+
+.text h1 {
+    display: flex;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif ;
+    width: 550px ;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.text p {
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-started {
+     width: 140px;
+     height: 60px;
+     background-color: orange;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+     margin-left: 60px;
+     text-decoration: none;
+     margin-bottom: 100px;    
+}
+.button-started a {
+    text-decoration: none;
+}
+.button-started h3 {
+    color: white;
+}
+.video {
+    display: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-top: 60px;
+    width: 100%;
+    background-color: #FFF8F1;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+}
+.info h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+.info p {
+    width: 514px;
+    height: 96px;
+    margin-right: 60px;
+}
+
+/*page 2*/
+
+.page-2 {
+   
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background-color:white;
+}
+
+
+.first-img img {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 100px;
+    object-fit: cover;
+   
+}
+.brown-page {
+    width: 100%;
+    height: 400px;
+    background-color: #402613;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+    margin-left: 200px;  
+}
+.brown-page div {
+    width:444px;
+    margin-right: 60px;
+}
+.brown-page h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: antiquewhite;
+    margin-bottom: 40px;
+}
+.brown-page p {
+    color: beige;
+}
+
+/*page 3*/
+.page-3  {
+   position: relative;
+   display: flex;
+   height: 100vh;
+   flex-wrap: wrap;
+   background-color: white;
+   flex-direction: column;
+}
+
+.title-of-benefits {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+}
+
+.title-of-benefits div {
+    width: 500px;
+    height: 120px;
+    margin-top: 100px;
+
+}
+.title-of-benefits h1 {
+    font-size:40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.software-image {
+    display: flex;
+    position: absolute;
+    margin-left: 500px;
+    
+}
+.software-image img {
+    width: 700px;
+    height: 320px;
+    object-fit: cover;
+   
+}
+.software-image-mobile {
+    display: none;
+}
+.advantages {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 150px;
+}
+.advantages h3 {
+    font-size: 24px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.advantages-for-p {
+    width: 300px;
+    
+    margin-bottom: 20px;
+}
+
+.rectagle {
+    display: flex;
+    flex-direction: row;
+    border: 1px #9e9e9e solid ;
+    margin-bottom: 15px;
+    box-shadow: -0px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    
+}
+.rectagle a {
+    text-decoration: none;
+}
+.rectagle img {
+    margin-top: 12px;
+}
+.vector {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+    
+}
+
+.rectagle h4{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: black;
+    
+}
+.rectagle p {
+    padding-bottom: 10px;
+    color: black;
+    width: 280px ;
+}
+
+/*page-4*/
+
+.page-4 {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.case-that-worked-on img {
+   width: 384px;
+   height: 300px;
+}
+
+.case-that-worked-on{ 
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    margin-left: 60px;
+}
+
+
+.case-that-worked-on p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.page-4-title {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.page-4-title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    width: 370px;
+    margin-left: 60px;
+}
+
+.page-4-title p {
+    width:380px;
+    font-size: 16px;
+    margin-left: 450px;
+}
+/*page-5*/
+ .page-5 {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: white;
+ }
+ 
+ 
+ .page-5-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+}
+
+.page-5-title div {
+    width: 500px;
+    height: 120px;
+    margin-top: 100px;
+
+}
+.page-5-title h1 {
+    font-size:40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page-5-title p {
+    width:484px
+}
+
+.questions-box {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    margin-left: 60px;
+}
+.questions-box div {
+    border: 1px rgb(175, 175, 175) solid;
+    width: 1200px;
+}
+
+.question-1 span {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.question-1 p {
+    width: 900px;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.question-1 h3{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+/*page 6*/
+.page-6 {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.page-6-title {
+    background-color: #FFF8F1;
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page-6-title h1 {
+   font-size: 40px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #402613;
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: minmax(100px, auto);
+}
+
+
+
+.logo-2 div {
+    border-radius: 50px ;
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    color: #FFF8F1;
+    font-size: 18px;
+}
+
+.logo-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    position: relative;
+}
+.logo-2 p {
+    width: 200px;
+}
+.logo-2 h1 {
+  color: #Ffffff;
+}
+.logo-2-paragraph {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 60px;
+    color: #ffffff8f ;
+    margin-bottom: 40px;
+}
+.social-tag {
+    margin-left: 60px;
+
+}
+.social-tag img {
+    margin-left: 10px;
+}
+
+
+.links , .about, .resorces, .office-address {
+    margin-top: 40px;
+   
+
+}
+.links p ,.about p, .resorces p, .office-address p {
+    padding-top: 20px;
+    color: #ffffff8f;
+}
+.links h3 ,.about h3, .resorces h3, .office-address h3 {
+    color: #Ffffff;
+}
+
+.last-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AAAAAA;
+    width: 100%;
+    height: 60px;
+    background-color: #402613;
+    border-top: 1px  #925c3650 solid;
+}
+.last-footer p {
+    color: #ffffff8f;
+}
+
+@media (max-width:1064px) {
+    .nav {
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .for-mobile-video {
+        display: flex;
+        flex-direction: row;
+    }
+    .video {
+     width: 140px;
+     height: 60px;
+     border: 2px white solid;
+     display: flex;
+     justify-content: center;
+     align-items: center;   
+     margin-left: 60px;
+     margin-top: 50px;
+     text-decoration: none; 
+    }
+    .video a {
+        text-decoration: none; 
+        color: white;
+    }
+    .text h1 {
+        width: 100%;
+    }
+    .followers {
+        margin-right: 60px;
+    }
+    .info p {
+       width: 100%;       
+       margin-top:  50px;
+    }
+    
+    .page-2 {
+        width: 100%;
+    }
+    .first-img {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .first-img img {       
+        width:80% ;
+        height: 272px;
+        margin-right: 40px;  
+    }
+    .brown-page  {
+        margin-left: 0;
+        width: 100%;
+        
+    }
+    .brown-page h1 {
+        margin-top: 150px;
+        font-size: 28px;
+        margin-left: 60px;
+        margin-right: 60px;
+    
+    }
+    .brown-page p {
+        margin-left: 60px;
+    }
+    .brown-page p:last-child {
+        display: none;
+    }
+
+   .title-of-benefits {
+     margin-left: 60px;
+   }
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+    .title-of-benefits  {
+        width: 400px ;
+    }
+   
+    .title-of-benefits  h1{
+        font-size: 25px;
+        margin-top: 100px;
+    }
+   
+    .software-image-mobile{
+         width: 100%;
+         display: flex;
+         margin-left: 60px;
+         position: absolute;
+         margin-bottom: 400px;
+    }
+    .software-image-mobile  img{
+        width: 80%;
+        height: 270px;
+        
+    }
+    .software-image  {
+        display: none;
+    }
+        
+    .advantages-for-p h3 {
+        display: none;
+    }
+    .title-of-benefits {
+        margin-top: 80px;
+        height: 110px;
+    }
+    .adavantage h3 {
+        margin-top: 0px;
+    }
+    .page-4-title {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .page-4-title p {
+       margin-left: 60px;
+       margin-top: 20px;
+       width: 70%;
+    }
+
+    
+    
+
+}
+
+
+
+    
+
+
+
+
