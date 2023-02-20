@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <section>
+      <div class="signup-page">
+        <div class="main-page">
+            <div class="form">
+                <form action="" id="loginform">                   
+                    <div class="title-of-signup">
+                        <h2>signup</h2>
+                        <p>There is no charge upon registration!</p>
+                    </div>
+                    <div class="label">
+                       <h5>Email Address</h5>   
+                       <input type="gmail" placeholder="enter your Email" id="gmail">
+                       <h5>Country</h5>
+                       <select name="" id="option">
+                         <option value="">Germany</option>
+                         <option value="">Georgia</option>
+                         <option value="">Russia</option>
+                         <option value="">Turkey</option>               
+                         <option value="">Argentina</option>               
+                         <option value="">Canada</option>               
+                                                      
+                       </select>                 
+                       <div class="cityandcode">
+                        <div class="city">
+                          <h5>City</h5>
+                          <input type="text" id="text">
+                        </div>
+                          
+                        <div class="zip-code">
+                            <h5>Zip code</h5>
+                            <input type="number" id="number">
+                        </div>
+                       </div>
+                       <div class="button">
+                          <h2><a href="">sign up now</a></h2>
+                       </div>
+                    </div>
+                    <div class="social-tag">
+                        <div class="tag-1">
+                            <h2><a href="">signup with facebook</a></h2>
+                        </div>
+                        <div class="tag-2">
+                            <h2><a href="">signup with facebook</a></h2>
+                        </div>
+                    </div>
+              
+                </form>
+
+
+            </div>
+         </div>
+
+        
+    </div>
+
+    <script src="../script.js">
+        let loginForm = document.getElementById("loginForm");
+
+loginForm.addEventListener("signup now", (e) => {
+  e.preventDefault();
+
+  let username = document.getElementById("gmail");
+  let text = document.getElementById("text");
+  let number = document.getElementById("number");
+  
+
+  if (username.value == "" && text.value == "" || number.value =="")    {
+    alert("Ensure you input a value in both fields!");
+  } else {
+    // perform operation with form input
+    alert("This form has been successfully submitted!");
+    console.log(
+      `This form has a username of ${username.value} and password of ${text.value} and ${number.value}`
+    );
+
+    username.value = "";
+    text.value = "";
+    number = "";
+  }
+});
+    </script>
+</body>
+</html>

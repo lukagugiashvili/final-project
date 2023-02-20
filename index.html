@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-  <header>
-    <div class="header">
+  <header> 
+       
+    <div class="header">          
        <div class="logo">  
            <div> <a href="">F</a></div>
           <a href=""><h1>Lukan.it</h1></a>
-       </div>
-        <div class="nav">
-          <nav>
+       </div>       
+        <div class="nav">          
+          <nav>           
             <div>
               <ul>
-                <a href=""><li>Home</li></a>
-                <a href=""><li>Company</li></a>
-                <a href=""><li>IT solution</li></a>
-                <a href=""><li>Features</li></a>
-                <a href=""><li>Contact us</li></a>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Company</li></a>
+                <a href="#"><li>IT solution</li></a>
+                <a href="#"><li>Features</li></a>
+                <a href="#"><li>Contact us</li></a>
               </ul>
             </div>
            </nav>
@@ -33,6 +35,19 @@
                     <a href=""><li>Sign up</li></a>                 
                   </ul>
              </div>
+             <div class="mobile-nav">
+              <div id="burger-menu">
+                <span></span>
+              </div>     
+              <div id="menu">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">It solution</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contact us</a></li>           
+                  </ul>
+            </div>
    
    </div>
   </header>
@@ -334,7 +349,14 @@
      
 
   </section>
-
+    <script src="script.js">
+      var burgerMenu = document.getElementById('burger-menu');
+var overlay = document.getElementById('menu');
+burgerMenu.addEventListener('click',function(){
+  this.classList.toggle("close");
+  overlay.classList.toggle("overlay");
+});
+    </script>
     
 </body>
 </html>

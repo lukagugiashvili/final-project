@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signup-page {
+    position: relative;
+}
+.main-page {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.main-page  {
+    background-image: url(image/signup\ image);
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position:top;
+    position: relative;
+}
+
+.form {
+  width: 531px;
+  height: 600px;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  margin-right: 56px;
+  border-radius: 10px;
+
+}
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-of-signup {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.title-of-signup h2 {
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 68px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+.title-of-signup p {
+    margin-bottom: 20px;   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.label {
+    margin-left: 50px;
+}
+
+.label input{
+    height: 51px;   
+    display: block;
+    width: 380px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #172432;
+}
+#option {
+    width: 380px;
+    height: 51px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #172432;
+}
+.label h5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-Weight: 400;
+    font-size: 12px;
+    Line-height :17px;
+    color: #748AA1;
+    margin-left: 10px;
+
+}
+
+.cityandcode input {
+    width: 180px;
+}
+
+.cityandcode {  
+   width: 511px;  
+   position: relative;
+}
+.city {
+    width: 180px;
+}
+.zip-code {
+    width: 180px;
+    margin-left: 200px;    
+    position: absolute;
+}
+.button {
+    width: 380px;
+    height: 51px;
+    background-color:  #29CB97;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;   
+}
+.button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.social-tag div {
+    width: 180px;
+    height: 51px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.social-tag {  
+    width: 511px;  
+    position: relative;
+    margin-top: 20px;
+
+ }
+ .social-tag h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+ }
+ .social-tag a {
+    text-decoration: none;
+    color: #FFFFFF;
+ }
+ .tag-1 {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+ }
+ .tag-2 {
+     margin-left: 250px;    
+     position: absolute;
+     display: flex;
+     justify-content: center;
+ }
+
+
+
+
+
