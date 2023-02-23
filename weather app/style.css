@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body {
+    overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    height: 91px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px;
+    position: relative;
+}
+
+.app-logo  {
+    position: relative;
+    margin-right: 90px;
+    margin-bottom: 40px;
+}
+.app-logo img {
+    position: absolute;
+}
+.half-sun {
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 36px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 60px;
+}
+.nav h1 {
+    margin-right: 20px;
+}
+.conteiner {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns:  (minmax(100px,auto));
+    margin-top: 50px;
+}
+
+.weather, .location {
+    width: 250px;
+    height: 375px;
+    background: gray;  
+    backdrop-filter: blur(16px);
+/* Note: backdrop-filter has minimal browser support */
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.all {
+    display: flex;
+}
+
+
+
+.weather {
+    display: flex;
+    position: relative;
+    margin-left: 400px;
+}
+.sun {
+    width: 40px;
+    height: 40px;
+    padding-left: 5px;
+}
+.weather img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+.ellipse img {
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+}
+.week-days {
+    width:180px;
+    position: relative;
+}
+.week-days h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #ffffff ;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.week-days p {
+    margin-left: 20px ;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.celsius-parent {
+    width: 250px;
+    display: flex;
+    position: relative;
+    justify-content: center ;
+    align-items: center;
+    height: 200px;
+}
+.celsius {
+    height: 60px;
+    display: flex;
+    flex-direction:column;
+}
+.celsius p {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 12px;
+   line-height: 27px;
+}
+.gradus {
+   display: flex ;
+   flex-direction: row;
+   color: #ffffff;
+
+}
+.gradus p {
+    margin-top: 10px;
+}
+.gradus h1 {
+    font-size: 75px;
+    font-weight: 300;
+}
+
+.data {
+    display: flex;
+    width: 100%;
+}
+
+.visibility-feels h3 {
+    font-size: 12px; 
+    font-weight: 500;
+    color: #ffffff;
+    margin-left: 30px; 
+    padding-top: 20px;
+    width: 80%;
+}
+.visibility-feels img {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+ .wind-temp {
+    margin-left: 20px;
+ }
+
+.wind-temp h3{
+    font-size: 12px; 
+    font-weight: 500;
+    color: #ffffff;
+    margin-left: 30px; 
+    padding-top: 20px;
+    width: 80%;
+}
+
+.wind-temp img {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location div {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.26);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.location h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+@media (max-width:900px) {
+    body {
+        overflow-y: hidden;
+    }
+    .nav {
+        margin-right: 20px;
+    }
+    .conteiner {
+        margin: 0;
+        display: flex;
+       
+    }
+     .weather {
+       margin: 0;
+       width: 100%;
+       height:548px  ;
+       border-radius: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      
+
+     }
+     .location {
+        display: none;
+     }
+     .data {
+        display: flex;
+        justify-content: center;
+     }
+    
+}

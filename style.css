@@ -741,6 +741,28 @@ body {
         margin-bottom:30px;
         text-decoration:none;
       }
+      .about {
+        display: none;
+      }
+      .footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+      }
+      .linkandresorces {
+        display: flex;
+        flex-direction: row;
+        padding-left: 60px;
+      }
+      .resorces {
+        margin-left: 60px;
+      }
+      .office-address {
+         margin-left: 60px;
+      }
+      .office-address p {
+        width: 200px;
+      }
     
     
 
